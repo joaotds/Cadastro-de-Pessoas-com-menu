@@ -11,7 +11,7 @@ public class MenuCadastroPessoas {
         do {
             exibirMenu();
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer do scanner
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
